@@ -1,4 +1,8 @@
 # HikIOT_signature
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Little-King2022/HikIOT_signature)
+![GitHub Repo stars](https://img.shields.io/github/stars/Little-King2022/HikIOT_signature)
+
 A Python program that generates MD5 signatures for HikIOT requests data.
 
 The HTTP request body should be as follows, and the header contains a MD5 key named 'sign'.
