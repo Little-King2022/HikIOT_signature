@@ -18,7 +18,7 @@ The salt used for encryption may change in subsequent version updates. Welcome t
 ## Usage
 Pass the JSON data you need to send into the get_sign function, and then return the signature.
 ```python
-from sign import get_sign
+from hikiot_sign import get_sign
 
 data = {
     "deviceSerial": "",
