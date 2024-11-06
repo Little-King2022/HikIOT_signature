@@ -17,6 +17,22 @@ The salt used for encryption may change in subsequent version updates. Welcome t
 
 ## Usage
 Pass the JSON data you need to send into the get_sign function, and then return the signature.
+```python
+from sign import get_sign
+
+data = {
+    "deviceSerial": "",
+    "longitude": new_longitude,
+    "latitude": new_latitude,
+    "clockSite": "xxx",
+    "address": "xxx",
+    "deviceName": "xxx",
+    "wifiName": "xxx",
+    "wifiMac": "xxx"
+}
+
+data_sign = get_sign(data)
+```
 
 ## Demo Server
 This repo also provides a demo Flask API server in `demo_server.py`. You can build your own backend server.
