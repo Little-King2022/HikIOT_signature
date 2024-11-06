@@ -22,8 +22,8 @@ from sign import get_sign
 
 data = {
     "deviceSerial": "",
-    "longitude": new_longitude,
-    "latitude": new_latitude,
+    "longitude": xxx,
+    "latitude": xxx,
     "clockSite": "xxx",
     "address": "xxx",
     "deviceName": "xxx",
