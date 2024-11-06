@@ -13,3 +13,6 @@ The salt used for encryption may change in subsequent version updates. Welcome t
 
 ## Usage
 Pass the JSON data you need to send into the get_sign function, and then return the signature.
+
+## Demo Server
+This repo also provides a demo Flask API server in `demo_server.py`. You can build your own backend server.
