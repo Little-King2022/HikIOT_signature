@@ -136,7 +136,7 @@ def daka():
             return jsonify({'message': '打卡失败'})
     except Exception as e:
         print(f"发生错误: {e}")
-        return jsonify({'message': 'token无效 请重新获取'})
+        return jsonify({'message': 'token过期或无效 请重新获取'})
 
 if __name__ == '__main__':
     app.run(debug=True, port=6010, host='127.0.0.1')
